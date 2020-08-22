@@ -1,12 +1,6 @@
 body{
   color: white;
-  background-color: #333333;
-  background-attachment: fixed;
-  background-image: url("../img/cherry.jpg");
-}
-
-section {
-    margin-left: 25%;
+  background-color: #808080;
 }
 
 .icônes{
@@ -14,22 +8,27 @@ section {
   height: 24px;
 }
 
-.reseaux{
-  width: 32px;
-  height: 32px;
-}
-
-li{
-  float: left;
-  text-align: justify;
-  list-style: none;
-  margin-left: 3vh;
+.header{
+  display: block;
+  height: 100vh;
+  background-image: url("../img/Fuji.jpg");
+  background-size: cover;
+  text-align: center;
+  padding-top: 50vh;
 }
 
 .project{
   display: block;
   padding-left: 1.5em;
   height: 200px;
+}
+
+li{
+  float: left;
+  text-align: justify;
+  list-style: none;
+  margin: 10px;
+  padding: 5px 10px;
 }
 
 h3{
@@ -45,31 +44,24 @@ h3{
   display: flex;
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
+  text-align: justify;
+  position: relative;
 }
 
-.right-col-block {
-    width: 50%;
-    position: absolute;
-    right: 0;
-    box-shadow: -10px -10px 30px rgba(0, 0, 0, 0.23);
-    background-color: #333333;
-    color: white;
-}
+.container{
+  display: block;
 
-.left-col-block {
-    width: 50%;
-    position: fixed;
-    attachment: fixed;
-    text-shadow: 0.5px 0.6px 5px White;
-    left: 0;
-    color: white;
-    text-align: center;
-    padding-top: 50vh;
+  text-align: center;
+
 }
 
 footer{
   background-color: #333333;
-  display: flex;
-  position: relative;
+  display: block;
   margin-top: 100%;
+}
+
+.reseaux{
+  width: 32px;
+  height: 32px;
 }

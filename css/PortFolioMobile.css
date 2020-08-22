@@ -12,7 +12,7 @@ body{
 .mobile{
   display: block;
   height: 100vh;
-  background-image: url("../img/cherry.jpg");
+  background-image: url("../img/fuji.jpg");
   background-size: cover;
   text-align: center;
   padding-top: 50vh;
@@ -53,6 +53,7 @@ footer{
   margin-top: 100%;
 }
 
-#footer{
-
+.reseaux{
+  width: 32px;
+  height: 32px;
 }
