@@ -5,14 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
   <link rel="stylesheet" href="css/site.min.css">
   <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link href="css/PortFolio.css" rel="stylesheet" id="PortFolio-css">
   <script type="text/javascript">
     var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
-    document.write('<link  href="css/');
-    //if (width >= 768)
-    document.write('PortFolio.css"');
-    //else
-    //document.write('PortFolioMobile.css"');
-    document.write('rel="stylesheet" id="PortFolio-css">');
   </script>
   <title>Portfolio</title>
 </head>
@@ -31,14 +26,13 @@
     <div>
       <!-- Présentation -->
       <section>
-        <div>
-          <div class="row">
-            <div class="col-sm-8">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-sm-4 col-md-3"></div>
+            <div class="col-sm-4 col-md-6">
               <h3>
                 Présentation
               </h3>
-            </div>
-            <div class="col-sm-8">
               <p class="text-center">
                 <strong>Je suis un étudiant actuellement en 3ème année de Licence informatique et je recherche
                   activement un stage.</strong>
@@ -50,21 +44,20 @@
       <!-- Compétences -->
       <hr>
       <section id="Compétences">
-        <div>
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-4 col-md-3"></div>
+            <div class="col-sm-4 col-md-6">
               <h3>
                 Compétences
               </h3>
-            </div>
-            <div class="col-sm-8">
               <p class="text-center">
               <ul>
                 <li>
                   <img src="img/Java.png" class="icônes"><strong> Java </strong>
                 </li>
                 <li>
-                  <img src="img/Java.png" class="icônes"><strong> C# </strong>
+                  <img src="img/CSharp.png" class="icônes"><strong> C# </strong>
                 </li>
                 <li>
                   <img src="img/PHP.png" class="icônes"><strong> PHP </strong>
@@ -90,15 +83,14 @@
       <!-- Diplômes -->
       <hr>
       <section>
-        <div>
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-4 col-md-4"></div>
+            <div class="col-sm-4 col-md-4">
               <h3>
                 Diplômes
               </h3>
-            </div>
-            <div class="col-sm-8">
-              <p class="text-center">
+              <p class="text-center" style="align-content: center;">
                 <li><strong>Septembre 2020 - Maintenant: Licence informatique</strong></li>
                 <li><strong>Septembre 2018 - Juin 2020: DUT informatique</strong></li>
                 <li><strong>Juin 2018: Baccalauréat Scientifiques spécialité mathématiques</strong></li>
@@ -109,14 +101,13 @@
       </section>
       <!-- Expérience -->
       <section style="display: none">
-        <div>
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-4 col-md-4"></div>
+            <div class="col-sm-4 col-md-4">
               <h3>
                 Expérience professionnels
               </h3>
-            </div>
-            <div class="col-sm-8">
               <p class="text-center">
                 <strong>TO DO: obtenir de l'expérience</strong>
               </p>
@@ -127,14 +118,13 @@
       <!-- Langues -->
       <hr>
       <section>
-        <div>
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-4 col-md-4"></div>
+            <div class="col-sm-4 col-md-4">
               <h3>
                 Langues
               </h3>
-            </div>
-            <div class="col-sm-8">
               <p class="text-center">
               <ul>
                 <li>
@@ -170,32 +160,33 @@
       <!-- Projets -->
       <hr>
       <section>
-        <div>
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-sm-8">
-              <h3>
-                Mes réalisations:
-              </h3>
-            </div>
-            <div class="col-sm-8">
-              <h3>Octobre-Décembre 2018 - Refonte du portail national des IUT informatique</h3>
-              <a href="https://bluesoul02.github.io/Refonte-du-portail-des-IUT-informatique/" target="_blank">
-                <a href="https://github.com/Bluesoul02/Refonte-du-portail-des-IUT-informatique" target="_blank">
-                  <img src="img/IUTinfo.png" class="project">
+            <div class="col-sm-4 col-md-4"></div>
+            <div class="col-sm-4 col-md-4">
+              <li>
+                <h3>
+                  Mes réalisations:
+                </h3>
+                <h3>Octobre-Décembre 2018 - Refonte du portail national des IUT informatique</h3>
+                <a href="https://bluesoul02.github.io/Refonte-du-portail-des-IUT-informatique/" target="_blank">
+                  <a href="https://github.com/Bluesoul02/Refonte-du-portail-des-IUT-informatique" target="_blank">
+                    <img src="img/IUTinfo.png" class="project">
+                  </a>
                 </a>
-              </a>
-            </div>
-            <div class="col-sm-8">
-              <h3>Avril-Juin 2019 - Remake de Bomberman</h3>
-              <a href="https://github.com/Bluesoul02/Remake-Bomberman" target="_blank">
-                <img src="img/bbm.png" class="project">
-              </a>
-            </div>
-            <div class="col-sm-8">
-              <h3>Décembre 2019 - Réalisation d'un site web en 36h</h3>
-              <a href="https://github.com/Bluesoul02/Watch-R" target="_blank">
-                <img src="img/MarathonWeb.png" class="project">
-              </a>
+              </li>
+              <li>
+                <h3>Avril-Juin 2019 - Remake de Bomberman</h3>
+                <a href="https://github.com/Bluesoul02/Remake-Bomberman" target="_blank">
+                  <img src="img/bbm.png" class="project">
+                </a>
+              </li>
+              <li>
+                <h3>Décembre 2019 - Réalisation d'un site web en 36h</h3>
+                <a href="https://github.com/Bluesoul02/Watch-R" target="_blank">
+                  <img src="img/MarathonWeb.png" class="project">
+                </a>
+              </li>
             </div>
           </div>
         </div>
@@ -203,14 +194,13 @@
       <!-- Centres d'intérêts -->
       <hr>
       <section>
-        <div>
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
               <h3>
                 Mes centres d'intérêts
               </h3>
-            </div>
-            <div class="col-sm-8">
               <p class="text-center">
               <ul>
                 <li>
@@ -234,15 +224,14 @@
       <!-- CV -->
       <hr>
       <section>
-        <div>
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
               <h3>
                 Mon CV
               </h3>
               <br>
-            </div>
-            <div class="col-sm-8">
               <p class="text-center">
                 <a href="dl/Avot-Kévin-CV.pdf" download>
                   <img src="img/pdf.png" class="reseaux">
@@ -255,14 +244,13 @@
       <!-- Contact -->
       <hr>
       <section>
-        <div>
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
               <h3>
                 Me contacter:
               </h3>
-            </div>
-            <div class="col-sm-8">
               <p class="text-center">
                 <strong> Adresse mail: kevin.avot1@gmail.com </strong>
                 <br>
