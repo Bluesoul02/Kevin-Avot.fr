@@ -1,6 +1,6 @@
 body{
   color: white;
-  background-color: #808080;
+  background-color: #5a5a5a;
 }
 
 .icônes{
@@ -11,7 +11,7 @@ body{
 .header{
   display: block;
   height: 100vh;
-  background-image: url("../img/Fuji.jpg");
+  background-image: url("../img/Main.png");
   background-size: cover;
   text-align: center;
   padding-top: 50vh;
@@ -56,7 +56,7 @@ h3{
 }
 
 footer{
-  background-color: #333333;
+  background-color: #202020;
   display: block;
   margin-top: 100%;
 }
